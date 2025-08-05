@@ -35,7 +35,7 @@ local oresToProcess = {
 }
 
 -- Wie viele Items pro Durchlauf?
-local batchSize = 16
+local batchSize = 2
 
 while true do
   for _, oreName in ipairs(oresToProcess) do
